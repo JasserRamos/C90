@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "c-90-suscripcion-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/c90Suscripcion/C90SuscripcionWebPart.js",
+          "manifest": "./src/webparts/c90Suscripcion/C90SuscripcionWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "C90SuscripcionWebPartStrings": "lib/webparts/c90Suscripcion/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

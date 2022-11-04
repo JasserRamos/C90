@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "c-90-suscripcion-client-side-solution",
+    "id": "f65871a9-674f-4d91-9d88-9c0c506586f1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/c-90-suscripcion.sppkg"
+  }
+}

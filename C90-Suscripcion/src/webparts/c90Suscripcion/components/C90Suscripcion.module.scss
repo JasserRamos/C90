@@ -1,0 +1,87 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+$blanco: rgb(255, 255, 255); //letras
+$anaranjado: rgb(217, 152, 48); //fondo
+$azul-prusia: rgb(6, 69, 104);
+$verde-helecho: rgb(52, 94, 28);
+$negro-perla: rgb(19, 25, 34);
+$rojo: rgb(178, 34, 34);
+$anaranjado-transparente: rgba(217, 152, 48, 0.5);
+$azul-prusia-transparente: rgba(6, 69, 104, 0.5);
+$gris: rgb(249, 250, 251);
+
+.c90Suscripcion {
+  .container {
+    max-width: fit-content;
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: $blanco;
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .title {
+    color: $azul-prusia !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+  .labelTexto {
+    color: $azul-prusia !important;
+  }
+  .modalCento {
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+  }
+  .buttonSuscripcion {
+    // Our button
+    text-decoration: none;
+    // Primary Button
+    min-width: 80px;
+    background-color: $anaranjado !important;
+    border-color: $blanco !important;
+    color: $blanco !important;
+    // Basic Button
+    outline: transparent;
+    //position: relative;
+    font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system,
+      BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    margin-right: 10px;
+    height: 38px;
+    cursor: pointer;
+    display: inline-block;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+}

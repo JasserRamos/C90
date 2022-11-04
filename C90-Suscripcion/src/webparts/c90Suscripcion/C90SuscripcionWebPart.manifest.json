@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "26e5c7b9-ac2a-42e2-94d8-165a0107e5b4",
+  "alias": "C90SuscripcionWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Other" },
+      "title": { "default": "C90Suscripcion" },
+      "description": { "default": "C90Suscripcion description" },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "URL": ""
+      }
+    }
+  ]
+}
